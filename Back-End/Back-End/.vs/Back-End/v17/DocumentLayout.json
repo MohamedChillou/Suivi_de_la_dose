@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|c:\\users\\dell\\onedrive\\bureau\\suivi_de_la_dose\\back-end\\back-end\\back-end\\data\\dose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|solutionrelative:back-end\\data\\dose.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|c:\\users\\dell\\onedrive\\bureau\\suivi_de_la_dose\\back-end\\back-end\\back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|solutionrelative:back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|c:\\users\\dell\\onedrive\\bureau\\suivi_de_la_dose\\back-end\\back-end\\back-end\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B4961D-991D-48D9-939B-EFD6F6FE52D2}|Back-End\\Back-End.csproj|solutionrelative:back-end\\dbcontexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dose.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\Data\\Dose.cs",
+              "RelativeDocumentMoniker": "Back-End\\Data\\Dose.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\Data\\Dose.cs",
+              "RelativeToolTip": "Back-End\\Data\\Dose.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:33:21.819Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\DbContexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Back-End\\DbContexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\DbContexts\\AppDbContext.cs",
+              "RelativeToolTip": "Back-End\\DbContexts\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:28:15.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\Program.cs",
+              "RelativeDocumentMoniker": "Back-End\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\OneDrive\\Bureau\\suivi_de_la_dose\\Back-End\\Back-End\\Back-End\\Program.cs",
+              "RelativeToolTip": "Back-End\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:22:05.523Z",
+              "EditorCaption": ""
             }
           ]
         }
