@@ -10,6 +10,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {FormsModule} from '@angular/forms';
+import { RegisteComponent } from './registe/registe.component';
+import { HomeComponent } from './home/home.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatTableModule} from '@angular/material/table';
+
+import {MatDatepickerModule} from '@angular/material/datepicker'
 
 
 
@@ -19,6 +25,8 @@ import {FormsModule} from '@angular/forms';
   declarations: [
     AppComponent,
     SignUpComponent,
+    RegisteComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -29,7 +37,10 @@ import {FormsModule} from '@angular/forms';
     MatButtonModule,
     MatInputModule,
     MatFormFieldModule,
-    FormsModule
+    FormsModule,
+    MatTableModule,
+    MatToolbarModule,
+    MatDatepickerModule
 
   ],
   providers: [

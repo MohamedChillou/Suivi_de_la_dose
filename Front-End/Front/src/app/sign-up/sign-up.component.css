@@ -1,20 +1,31 @@
 .all {
   display: flex;
+  margin: 0px auto;
   padding-top: 10%;
-  border: solid 1px;
+  border: solid 0px;
+  width: 90%;
+  justify-content: center;
+  
 }
 
 .post {
-  width: 35%; /* 45% de la largeur totale */
-  border: solid 2px;
-  padding: 10px; /* Optionnel : pour ajouter un peu d'espace interne */
-  box-sizing: border-box; /* Inclut les bordures dans le calcul de largeur */
-
+  width: 35%; 
+  border: solid 0px;
+  padding: 20px; 
+  box-sizing: border-box; 
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  min-width: 400px;
 }
+
 .titre{
  margin-left: 20px;
  margin-bottom: 50px;
+ color: rgb(27, 61, 156);
+ font-weight: 500;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
+
 .example-form {
   min-width: 150px;
   max-width: 500px;
@@ -23,21 +34,71 @@
 
 .example-full-width {
   width: 100%;
-
 }
+
 .btn{
   padding: 10px;
   border-radius: 20px;
   background: none;
 }
 
+.lien , .lien_signup{
+  display: block; 
+  text-align: center;
+  font-weight: 500;
+}
+.lien_signup{
+  display: none;
+}
+.lien a{
+  text-decoration: none;
+  color: gray;
+}
+
+ .lien a:hover{
+  text-decoration: underline;
+  
+}
 
 
 .description{
   width : 60%;
-  margin: auto 0px;
   text-align: center;
-  border: solid 2px;
-  box-sizing: border-box;
   padding: 10px;
+  background-color: rgb(27, 61, 156);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-width: 500px;
+
+}
+
+.description h1{
+  margin-top: 130px;
+  font-weight: bold;
+}
+.description p {
+  font-weight: bold;
+}
+.description button{
+  margin-top: 18px;
+  width: 16%;
+  height: 38px;
+  color:  rgb(27, 61, 156);
+}
+
+
+@media only screen and (max-width: 900px){
+  .all{
+    padding-top: 20%;
+  }
+  .description{
+    display: none;
+  }
+  .post {
+    width: 85%; 
+  }
+  .lien_signup{
+    display: block;
+  }
 }
